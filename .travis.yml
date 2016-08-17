@@ -1,2 +1,2 @@
-before_script: FOO=bar
+before_script: FOO=$(git --version)
 script: echo $FOO

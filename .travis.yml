@@ -1,2 +1,2 @@
 before_script: FOO=bar
-script echo $FOO
+script: echo $FOO
